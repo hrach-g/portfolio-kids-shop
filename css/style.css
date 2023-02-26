@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: fontText;
+    src: url(../EB_Garamond/EBGaramond-Italic-VariableFont_wght.ttf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +10,10 @@
 a{
     text-decoration: none;
     color: black;
+    font-family: fontText;
+}
+p{
+    font-family: fontText;
 }
 img{
     max-width: 100%;
@@ -14,6 +21,9 @@ img{
 ul , ol{
     list-style: none;
 
+}
+h2, h3{
+    font-family: fontText;
 }
 .container{
     max-width: 1140px;
